@@ -32,6 +32,7 @@
         {
             Console.WriteLine(Add(1, 2, isCurrency:false));
             Console.WriteLine(Add(numOne: 1, numTwo: 2));
+            Console.WriteLine(Add(numOne: 1.0m, numTwo: 2.0m));
         }
     }
 } 
