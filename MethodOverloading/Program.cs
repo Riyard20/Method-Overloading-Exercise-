@@ -30,7 +30,8 @@
         }
         static void Main(string[] args)
         {
-            Console.WriteLine(Add(1, 2, isCurrency:true));
+            Console.WriteLine(Add(1, 2, isCurrency:false));
+            Console.WriteLine(Add(numOne: 1, numTwo: 2));
         }
     }
-}
+} 
